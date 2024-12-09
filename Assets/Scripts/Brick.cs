@@ -63,13 +63,13 @@ public class Brick : MonoBehaviour
         if (collisionSound != null && audioSource != null)
         {
             // Map PointValue (1-9) to a pitch range (e.g., 0.8 to 1.2)
-            float pitch = Mathf.Lerp(0.3f, 0.8f, (PointValue - 1) / 8f);
+            float pitch = Mathf.Lerp(0.2f, 0.8f, (PointValue - 1) / 8f);
 
             // Set the pitch
             audioSource.pitch = pitch;
 
             // Adjust the volume
-            audioSource.volume = 0.5f;
+            audioSource.volume = 0.35f;
 
             // Play the sound
             audioSource.PlayOneShot(collisionSound); 

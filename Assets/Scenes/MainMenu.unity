@@ -391,7 +391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 199.36, y: -4}
+  m_AnchoredPosition: {x: 275, y: -4}
   m_SizeDelta: {x: 600, y: 40}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &423544355
@@ -1089,6 +1089,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentName: 
   HighScoreName: 
+  CurrentScore: 0
+  CurrentRound: 1
   HighScore: 0
   hasHighScore: 0
 --- !u!1 &703719189
